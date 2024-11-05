@@ -7,11 +7,11 @@
 # Inherit from sm6375-common
 -include device/oneplus/sm6375-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/larry
+DEVICE_PATH := device/oneplus/oscaro
 
 # Partitions
 BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 12880707584
 BOARD_SUPER_PARTITION_SIZE := 12884901888
 
 # Inherit the proprietary files
--include vendor/oneplus/larry/BoardConfigVendor.mk
+-include vendor/oneplus/oscaro/BoardConfigVendor.mk

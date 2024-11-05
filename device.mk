@@ -37,4 +37,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/oneplus/larry/larry-vendor.mk)
+$(call inherit-product-if-exists, vendor/oneplus/oscaro/oscaro-vendor.mk)

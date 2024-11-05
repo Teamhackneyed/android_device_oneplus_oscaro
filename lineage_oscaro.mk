@@ -11,22 +11,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from larry device
+# Inherit from oscaro device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_larry
-PRODUCT_DEVICE := larry
+PRODUCT_NAME := lineage_oscaro
+PRODUCT_DEVICE := oscaro
 PRODUCT_BRAND := oneplus
-PRODUCT_MODEL := CPH2467
+PRODUCT_MODEL := CPH2381
 PRODUCT_MANUFACTURER := oneplus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="OP5958L1-user 14 UKQ1.230924.001 T.R4T2.18a850a_1c802_26b84 release-keys" \
-    BuildFingerprint=OnePlus/CPH2467/OP5958L1:14/UKQ1.230924.001/T.R4T2.18a850a_1c802_26b84:user/release-keys \
-    DeviceName=OP5958L1 \
-    DeviceProduct=OP5958L1 \
-    SystemDevice=OP5958L1 \
-    SystemName=OP5958L1
+    BuildDesc="OP535DL1-user 14 UKQ1.230924.001 S.19e5610_4129-4b32d release-keys" \
+    BuildFingerprint=OnePlus/CPH2381/OP535DL1:14/UKQ1.230924.001/S.19e5610_4129-4b32d:user/release-keys \
+    DeviceName=OP535DL1 \
+    DeviceProduct=OP535DL1 \
+    SystemDevice=OP535DL1 \
+    SystemName=OP535DL1
