@@ -10,8 +10,8 @@
 DEVICE_PATH := device/oneplus/oscaro
 
 # Partitions
-BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 12880707584
-BOARD_SUPER_PARTITION_SIZE := 12884901888
+BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 11186208768
+BOARD_SUPER_PARTITION_SIZE := 11190403072
 
 # Inherit the proprietary files
 -include vendor/oneplus/oscaro/BoardConfigVendor.mk
